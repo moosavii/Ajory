@@ -3,6 +3,8 @@ react masonry full responsive component
 <ul>
     <li>masonry grid </li>
     <li>pintrest grid</li>
+    <li>float masonry</li>
+    <li>responsive masonry</li>
     <li>simple and usefull</li>
     <li>responsive by element resize</li>
 </ul>
