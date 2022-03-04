@@ -3,13 +3,10 @@ react masonry full responsive component
 <br/>
 masonry grid 
 <br/>
-
 pintrest grid
 <br/>
-
 simple and usefull
 <br/>
-
 responsive by element resize
 <br/>
 
