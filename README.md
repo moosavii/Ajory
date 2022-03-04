@@ -15,7 +15,7 @@ note : colWidth and colGap most be only number
 
 
     
-    <Ajory colWidth="300" colGap="10"  >
+    <Ajory colWidth={300} colGap={10}  >
         {
           yourArray.map((item, index) => <YourComponent />)
         }
