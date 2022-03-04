@@ -1,10 +1,21 @@
 # Ajory
 react masonry full responsive component
+<br/>
 masonry grid 
+<br/>
+
 pintrest grid
+<br/>
+
 simple and usefull
+<br/>
+
 responsive by element resize
+<br/>
+
 note : colWidth and colGap most be only number
+<br/>
+
 
     
     <Ajory colWidth="300" colGap="10"  >
