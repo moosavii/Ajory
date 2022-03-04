@@ -6,7 +6,7 @@ react masonry full responsive component
     <li>simple and usefull</li>
     <li>responsive by element resize</li>
 </ul>
-<h3>note : colWidth and colGap most be only number</h3>
+<h3>Note : colWidth and colGap most be only number</h3>
 
 
 
