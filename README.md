@@ -1,7 +1,7 @@
 # Ajory
 react masonry full responsive component
 <br/>
-masonry grid 
+<li>masonry grid </li>
 <br/>
 pintrest grid
 <br/>
