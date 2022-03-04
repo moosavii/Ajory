@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
+import PropTypes from 'prop-types';
 
-export default function Ajory({ children, colWidth, colGap }) {
+function Ajory({ children, colWidth, colGap }) {
     const ref = useRef(null);
 
     const calcPosition = function () {
@@ -49,3 +50,10 @@ export default function Ajory({ children, colWidth, colGap }) {
     );
 
 } 
+
+Ajory.propTypes  = {
+   colWidth : PropTypes.number,
+   colGap : PropTypes.number 
+}
+
+export default Ajory;
