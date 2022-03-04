@@ -12,9 +12,10 @@ react masonry grid component
 
 
 
-    
+  
     <Ajory colWidth={300} colGap={10}  >
         {
           yourArray.map((item, index) => <YourComponent />)
         }
      </Ajory>
+ 
