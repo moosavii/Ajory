@@ -1,17 +1,13 @@
 # Ajory
 react masonry full responsive component
-<br/>
-<li>masonry grid </li>
-<br/>
-pintrest grid
-<br/>
-simple and usefull
-<br/>
-responsive by element resize
-<br/>
+<ul>
+    <li>masonry grid </li>
+    <li>pintrest grid</li>
+    <li>simple and usefull</li>
+    <li>responsive by element resize</li>
+</ul>
+<h3>note : colWidth and colGap most be only number</h3>
 
-note : colWidth and colGap most be only number
-<br/>
 
 
     
