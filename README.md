@@ -1,5 +1,5 @@
 # Ajory
-react masonry grid component
+<h3>React.js masonry grid component</h3>
 <ul>
     <li>masonry grid </li>
     <li>pintrest grid</li>
