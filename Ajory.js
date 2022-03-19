@@ -1,7 +1,7 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, createElement } from "react";
 import PropTypes from 'prop-types';
 
-function Ajory({ children, colWidth, colGap , containerStyle }) {
+function Ajory({ children, colWidth, colGap, containerStyle }) {
     const ref = useRef(null);
 
     const calcPosition = function () {
@@ -44,17 +44,22 @@ function Ajory({ children, colWidth, colGap , containerStyle }) {
 
 
     return (
-        <div id="ajory" ref={ref} style={{ position: "relative",...containerStyle }}>
-            {children}
-        </div>
+        createElement("div",
+            {
+                id: "ajory",
+                ref: ref,
+                style: { position: "relative", ...containerStyle }
+            },
+            children)
+
     );
 
-} 
+}
 
-Ajory.propTypes  = {
-   colWidth : PropTypes.number,
-   colGap : PropTypes.number,
-   containerStyle :  PropTypes.object
+Ajory.propTypes = {
+    colWidth: PropTypes.number,
+    colGap: PropTypes.number,
+    containerStyle: PropTypes.object
 }
 
 export default Ajory;
