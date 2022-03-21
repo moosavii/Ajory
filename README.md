@@ -13,7 +13,7 @@
 
 
   
-    <Ajory colWidth={300} colGap={10}  >
+    <Ajory colWidth={300} colGap={10} containerStyle = {{   }} >
         {
           yourArray.map((item, index) => <YourComponent />)
         }
